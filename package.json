@@ -1,0 +1,63 @@
+{
+  "name": "mintsite",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:staging": "tsc && vite build --mode staging",
+    "preview": "vite preview",
+    "lint": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --ignore-path ./.gitignore"
+  },
+  "dependencies": {
+    "@childrenofukiyo/core": "*",
+    "@headlessui/react": "^1.5.0",
+    "@mantine/hooks": "^4.0.9",
+    "@reduxjs/toolkit": "^1.8.0",
+    "@sentry/react": "^6.18.2",
+    "@sentry/tracing": "^6.18.2",
+    "axios": "^0.26.1",
+    "core-js": "^3.21.1",
+    "ethers": "^5.6.2",
+    "events": "^3.3.0",
+    "formik": "^2.2.9",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "6",
+    "wagmi": "^0.2.24"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.0",
+    "@types/lodash": "^4.14.181",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "@vitejs/plugin-react": "^1.0.7",
+    "autoprefixer": "^10.4.4",
+    "eslint": "^8.12.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
